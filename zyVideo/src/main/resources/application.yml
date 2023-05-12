@@ -1,0 +1,25 @@
+server:
+  port: 6073
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+knife4j:
+  enable: true
+  openapi:
+    title: zyVideo官方文档
+    description: none
+    email: 398407273@qq.com
+    concat: Ryan
+    url:
+    version: v4.0
+    license: Apache 2.0
+#    group:
+#      test1:
+#        group-name: 分组名称
+#        api-rule: package
+#        api-rule-resources:
+#          - com.knife4j.demo.new3
